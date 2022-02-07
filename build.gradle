@@ -92,6 +92,7 @@ configure(coreModule) {
         compileOnly(servletApi)
         jdbc(postgres)
         testRuntime(postgres)
+        testCompile('org.testcontainers:postgresql:1.16.3')
     }
 
     task cleanConf(description: 'Cleans up conf directory', type: Delete) {

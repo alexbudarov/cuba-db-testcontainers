@@ -8,6 +8,10 @@ import java.util.Arrays;
 
 public class TestcontTestContainer extends TestContainer {
 
+    static {
+        System.setProperty("logback.configurationFile", "com/company/testcont/test-logback.xml");
+    }
+
     public TestcontTestContainer() {
         super();
         //noinspection ArraysAsListWithZeroOrOneArgument

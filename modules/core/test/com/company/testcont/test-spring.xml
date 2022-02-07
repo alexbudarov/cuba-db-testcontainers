@@ -5,4 +5,6 @@
 
     <!-- <bean id="cuba_Emailer" class="com.haulmont.cuba.testsupport.TestEmailer"/> -->
 
+    <bean id="cuba_DbUpdateManager" class="com.haulmont.cuba.core.sys.dbupdate.DbUpdateManager"/>
+
 </beans>
